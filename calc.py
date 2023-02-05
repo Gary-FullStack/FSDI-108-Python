@@ -13,4 +13,6 @@ def print_menu():
 # plain instructions
 print_menu()
 opt = input("Select an option: ")
-print(opt)
+
+if opt == "1":
+    # ask for 2 nums then print sum
